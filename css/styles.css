@@ -1,0 +1,11 @@
+#base-text {
+  font-size: 5px; }
+
+@media (max-width: 767px) {
+  .hide-links-small {
+    display: none; } }
+@media (min-width: 768px) {
+  .hide-links-large {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */
