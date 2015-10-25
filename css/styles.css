@@ -1,8 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500);
+@import url(https://fonts.googleapis.com/css?family=Overlock:400,700);
 @media (max-width: 767px) {
+  #main-block {
+    font-size: 1.6rem; }
+
   .hide-links-small {
     display: none; } }
 @media (min-width: 768px) {
+  #main-block {
+    font-size: 1.6rem; }
+
+  .hide-links-large {
+    display: none; } }
+@media (min-width: 992px) {
+  #main-block {
+    font-size: 2rem; }
+
+  .hide-links-large {
+    display: none; } }
+@media (min-width: 1200px) {
+  #main-block {
+    font-size: 2.4rem; }
+
   .hide-links-large {
     display: none; } }
 #base-text {
@@ -13,30 +31,48 @@
 
 .col-xs-12, .col-sm-12, .col-md-12 {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 10%;
   box-shadow: 2px 2px 0 #787878; }
+
+.pictures {
+  display: block;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: solid black 2px;
+  border-radius: 30%; }
 
 #main-block {
   background-color: gainsboro;
-  border-radius: 20%;
+  border-radius: 10%;
   padding: 4% 6% 4% 6%;
-  font-family: 'Cabin Condensed', sans-serif;
-  font-size: 2rem;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: 'Overlock', cursive;
+  color: black;
   border-color: white;
   border-width: 8px;
   border-style: double inset;
   box-shadow: 5px 5px 0 #787878; }
+  #main-block h1, #main-block h2, #main-block h3, #main-block h4 {
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #000, -1px 1px 0 #FFF, 1px 1px 0 #FFF; }
 
 #about-me, #pic-snippets, #links, #portfolio-info, #education, #self {
   background-color: #bef0be;
-  padding: 10px;
-  border-radius: 30%;
+  padding: 5px;
+  border-radius: 10%;
   border-color: #a0a0a0;
   border-width: 6px;
   border-style: double;
   box-shadow: 5px 5px 0 #787878;
   margin-bottom: 15px; }
+
+#about-me-text, #pic-snippets-text, #links-text, #portfolio-info-text, #education-text, #self-text {
+  border-radius: 11%;
+  text-align: center; }
+
+#pic-snippets-text {
+  font-size: 2rem; }
+
+#links-text {
+  word-wrap: break-word; }
 
 /*# sourceMappingURL=styles.css.map */
