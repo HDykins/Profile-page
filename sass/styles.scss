@@ -1,14 +1,52 @@
-#base-text {
-  font-size: 5px;
-}
+@import "colors-fonts.scss";
+@import "media-queries.scss";
 
-@media (max-width: 767px) {
-  .hide-links-small {
-    display: none;
-  }
+#base-text {
+	font-size: 5px;
 }
-@media (min-width: 768px) {
-  .hide-links-large {
-    display: none;
-  }
+.body {
+	background-color: $dark-grey;
+}
+.col-xs-12, .col-sm-12, .col-md-12,{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 0 $dark-shadow;
+}
+#main-block {
+	background-color: $grey;
+	border-radius: 20%;
+	padding: 4% 6% 4% 6%;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 2rem;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border-color: white;
+	border-width: 8px;
+	border-style: double inset;
+	box-shadow: 5px 5px 0 $dark-shadow;
+}
+#about-me{
+	background-color: $lime;
+	padding: 10px;
+	border-radius: 30%;
+	border-color: $dark-grey;
+	border-width: 6px;
+	border-style: double;
+	box-shadow: 5px 5px 0 $dark-shadow;
+	margin-bottom: 15px;
+}
+#pic-snippets{
+	@extend #about-me;
+}
+#links{
+	@extend #about-me;
+}
+#portfolio-info{
+	@extend #about-me;	
+}
+#education{
+	@extend #about-me;	
+}
+#self{
+	@extend #about-me;	
 }

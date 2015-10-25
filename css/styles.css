@@ -1,11 +1,42 @@
-#base-text {
-  font-size: 5px; }
-
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500);
 @media (max-width: 767px) {
   .hide-links-small {
     display: none; } }
 @media (min-width: 768px) {
   .hide-links-large {
     display: none; } }
+#base-text {
+  font-size: 5px; }
+
+.body {
+  background-color: #a0a0a0; }
+
+.col-xs-12, .col-sm-12, .col-md-12 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0 #787878; }
+
+#main-block {
+  background-color: gainsboro;
+  border-radius: 20%;
+  padding: 4% 6% 4% 6%;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border-color: white;
+  border-width: 8px;
+  border-style: double inset;
+  box-shadow: 5px 5px 0 #787878; }
+
+#about-me, #pic-snippets, #links, #portfolio-info, #education, #self {
+  background-color: #bef0be;
+  padding: 10px;
+  border-radius: 30%;
+  border-color: #a0a0a0;
+  border-width: 6px;
+  border-style: double;
+  box-shadow: 5px 5px 0 #787878;
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=styles.css.map */

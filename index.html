@@ -4,74 +4,15 @@
   <meta charset="utf-8">
   <title>PROFILE</title>
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <style>
-    @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
-    
-    * {
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size: 2rem;
-      text-shadow: 1px 1px 0 #000;
-      color: white;
-    }
-    
-    .col-xs-12:nth-child(1), .col-sm-12:nth-child(1), .col-md-12:nth-child(1) {
-      background-color: purple;
-    }
-    .col-xs-12:nth-child(2), .col-sm-12:nth-child(2), .col-md-12:nth-child(2) {
-      background-color: blue;
-    }
-    .col-xs-11:nth-child(1), .col-sm-11:nth-child(1), .col-md-11:nth-child(1) {
-      background-color: blue;
-    }
-    .col-xs-11:nth-child(2), .col-sm-11:nth-child(2), .col-md-11:nth-child(2) {
-      background-color: blue;
-    }
-    .col-xs-10:nth-child(1), .col-sm-10:nth-child(1), .col-md-10:nth-child(1) {
-      background-color: purple;
-    }
-    .col-xs-10:nth-child(2), .col-sm-10:nth-child(2), .col-md-10:nth-child(2) {
-      background-color: purple;
-    }
-    .col-xs-8:nth-child(1), .col-sm-8:nth-of-type(1), .col-md-8:nth-of-type(1) {
-      background-color: red;
-    }
-    .col-xs-8:nth-child(2), .col-sm-8:nth-of-type(2), .col-md-8:nth-of-type(2) {
-      background-color: red;
-    }
-    .col-xs-6:nth-child(1), .col-sm-6:nth-of-type(1), .col-md-6:nth-of-type(1) {
-      background-color: red;
-    }
-    .col-xs-6:nth-child(2), .col-sm-6:nth-of-type(2), .col-md-6:nth-of-type(2) {
-      background-color: cyan;
-    }
-    .col-xs-4:nth-child(1), .col-sm-4:nth-child(1), .col-md-4:nth-child(1) {
-      background-color: orange;
-    }
-    .col-xs-4:nth-child(2), .col-sm-4:nth-of-type(2), .col-md-4:nth-of-type(2) {
-      background-color: pink;
-    }
-    .col-xs-2:nth-child(1), .col-sm-2:nth-child(1), .col-md-2:nth-child(1) {
-      background-color: yellow;
-    }
-    .col-xs-2:nth-child(2), .col-sm-2:nth-child(2), .col-md-2:nth-child(2) {
-      background-color: green;
-    }
-    .col-xs-1:nth-child(1), .col-sm-1:nth-child(1), .col-md-1:nth-child(1) {
-      background-color: yellow;
-    }
-    .col-xs-1:nth-child(2), .col-sm-1:nth-child(2), .col-md-1:nth-child(2) {
-      background-color: green;
-    }
-  </style>
 </head>
-<body>
+<body class="body">
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -126,27 +67,45 @@
     </div><!-- /.container-fluid -->
   </nav>
   
-  <div class="container">
-    
+  <div id="main-block" class="container">
+
    <div class="row">   
-    
-    <div class="col-xs-12 col-sm-8 col-md-8">ABOUT ME</div>
-    <div class="col-xs-6 col-sm-4 col-md-4">PICTURE + LIL SNIPPETS</div>
-    <div class="hide-links-large col-xs-6 col-sm-2 col-md-2">LINKS TO PORTFOLIO PAGES</div>
-  </div> 
-  
+
+    <div id="about-me" class="col-xs-12 col-sm-8 col-md-8">
+      <div id="about-me-text" class="col-xs-12 col-sm-12 col-md-12">ABOUT ME</div>
+    </div>
+
+    <div id="pic-snippets" class="col-xs-6 col-sm-4 col-md-4">
+      <div id="pic-snippets-text" class="col-xs-12 col-sm-12 col-md-12">PICTURE + LIL SNIPPETS</div>
+    </div>
+
+    <div id="links" class="hide-links-large col-xs-6">
+      <div id="links-text" class="col-xs-12">LINKS TO PORTFOLIO PAGES</div>
+    </div>
+  </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-10 col-md-10">INFO ABOUT PORTFOLIO/CV</div>
 
-    <div class="hide-links-small col-xs-6 col-sm-2  col-md-2">LINKS TO PORTFOLIO PAGES</div>
+    <div id="portfolio-info" class="col-xs-12 col-sm-10 col-md-10">
+    <div id="portfolio-info-text" class="col-xs-12 col-sm-12 col-md-12">INFO ABOUT PORTFOLIO/CV</div>
+    </div>
 
-    
+    <div id="links" class="hide-links-small col-sm-2 col-md-2">
+      <div id="links-text" class="col-sm-12 col-md-12">LINKS TO PORTFOLIO PAGES</div>
+    </div>
+
   </div>   
   
 
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6">EDUCATIONAL BACKGROUND</div>
-    <div class="col-xs-12 col-sm-6 col-md-6">ABOUT SELF + ANOTHER PICTURE</div>
+
+    <div id="education" class="col-xs-12 col-sm-6 col-md-6">
+    <div id="education-text" class="col-xs-12 col-sm-12 col-md-12">EDUCATIONAL BACKGROUND</div>
+    </div>
+
+    <div id="self" class="col-xs-12 col-sm-6 col-md-6">
+    <div id="self-text" class="col-xs-12 col-sm-12 col-md-12">ABOUT SELF + ANOTHER PICTURE</div>
+    </div>
+
   </div>
 
 </div> 
