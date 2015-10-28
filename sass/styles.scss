@@ -48,7 +48,10 @@ h1, h2, h3, h4 {
 #pic-snippets{
 	@extend #about-me;
 }
-#links{
+#links-second-row{
+	@extend #about-me;
+}
+#links-third-row{
 	@extend #about-me;
 }
 #portfolio-info{
@@ -68,7 +71,11 @@ h1, h2, h3, h4 {
 	@extend #about-me-text;
 	font-size: 2rem;
 }
-#links-text{
+#links-text-second-row{
+	@extend #about-me-text;
+	word-wrap: break-word;
+}
+#links-text-third-row{
 	@extend #about-me-text;
 	word-wrap: break-word;
 }
