@@ -1,0 +1,88 @@
+@import "colors-fonts.scss";
+@import "media-queries.scss";
+
+#base-text {
+	font-size: 5px;
+}
+.body {
+	background-color: $dark-grey;
+}
+.col-xs-12, .col-sm-12, .col-md-12,{
+	background-color: white;
+	border-radius: 10%;
+	box-shadow: 2px 2px 0 $dark-shadow;
+}
+.pictures {
+	display: block;
+	 width: 100%;
+	 margin-top: 5%;
+	 margin-bottom: 5%;
+	 border: solid black 2px;
+	 border-radius: 30%;
+}
+#main-block {
+	background-color: $grey;
+	border-radius: 10%;
+	padding: 4% 6% 4% 6%;
+	font-family: 'Overlock', cursive;
+	color: black;
+	border-color: white;
+	border-width: 8px;
+	border-style: double inset;
+	box-shadow: 5px 5px 0 $dark-shadow;
+}	
+h1, h2, h3, h4 {
+	text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #000, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+#about-me{
+	background-color: $lime;
+	padding: 5px;
+	border-radius: 10%;
+	border-color: $dark-grey;
+	border-width: 6px;
+	border-style: double;
+}
+#pic-snippets{
+	@extend #about-me;
+}
+#links-second-row{
+	@extend #about-me;
+}
+#links-third-row{
+	@extend #about-me;
+}
+#portfolio-info{
+	@extend #about-me;	
+}
+#education{
+	@extend #about-me;	
+}
+#self{
+	@extend #about-me;	
+}
+#about-me-text{
+	border-radius: 11%;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#pic-snippets-text{
+	@extend #about-me-text;
+	font-size: 2rem;
+}
+#links-text-second-row{
+	@extend #about-me-text;
+	word-wrap: break-word;
+}
+#links-text-third-row{
+	@extend #about-me-text;
+	word-wrap: break-word;
+}
+#portfolio-info-text{
+	@extend #about-me-text;
+}
+#education-text{
+	@extend #about-me-text;
+}
+#self-text{
+	@extend #about-me-text;
+}

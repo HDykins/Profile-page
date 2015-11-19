@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Overlock:400,700);
+@media (max-width: 767px) {
+  #main-block {
+    font-size: 1.6rem; }
+
+  .hide-links-small {
+    display: none; } }
+@media (min-width: 768px) {
+  #main-block {
+    font-size: 1.6rem; }
+
+  .hide-links-large {
+    display: none; } }
+@media (min-width: 992px) {
+  #main-block {
+    font-size: 2rem; }
+
+  .hide-links-large {
+    display: none; } }
+@media (min-width: 1200px) {
+  #main-block {
+    font-size: 2.4rem; }
+
+  .hide-links-large {
+    display: none; } }
+#base-text {
+  font-size: 5px; }
+
+.body {
+  background-color: #a0a0a0; }
+
+.col-xs-12, .col-sm-12, .col-md-12 {
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 2px 2px 0 #787878; }
+
+.pictures {
+  display: block;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: solid black 2px;
+  border-radius: 30%; }
+
+#main-block {
+  background-color: gainsboro;
+  border-radius: 10%;
+  padding: 4% 6% 4% 6%;
+  font-family: 'Overlock', cursive;
+  color: black;
+  border-color: white;
+  border-width: 8px;
+  border-style: double inset;
+  box-shadow: 5px 5px 0 #787878; }
+
+h1, h2, h3, h4 {
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #000, -1px 1px 0 #FFF, 1px 1px 0 #FFF; }
+
+#about-me, #pic-snippets, #links-second-row, #links-third-row, #portfolio-info, #education, #self {
+  background-color: #bef0be;
+  padding: 5px;
+  border-radius: 10%;
+  border-color: #a0a0a0;
+  border-width: 6px;
+  border-style: double; }
+
+#about-me-text, #pic-snippets-text, #links-text-second-row, #links-text-third-row, #portfolio-info-text, #education-text, #self-text {
+  border-radius: 11%;
+  text-align: center;
+  padding-bottom: 15px; }
+
+#pic-snippets-text {
+  font-size: 2rem; }
+
+#links-text-second-row {
+  word-wrap: break-word; }
+
+#links-text-third-row {
+  word-wrap: break-word; }
+
+/*# sourceMappingURL=styles-jsx.css.map */

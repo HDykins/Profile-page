@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PROFILE</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/styles-jsx.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body className="body">
+
+  <div id="react-app"></div>
+
+  <script src="https://fb.me/react-0.14.2.js"></script>
+  <script src="https://fb.me/react-dom-0.14.2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+  <script type="text/babel">
+
+// var mainBlockDiv = React.createElement('div', { className: 'container', key: 'container' id: 'main-block'});
+// var FirstRowDiv = React.createElement('div', { className: 'row', key: 'row'});
+// var SecondRowDiv = React.createElement('div', { className: 'row', key: 'row'});
+// var ThirdRowDiv = React.createElement('div', { className: 'row', key: 'row'});
+// var reactFragment = [FirstRowDiv, SecondRowDiv, ThirdRowDiv];
+
+
+var mainBlock = <div id="main-block" className="container">
+
+<div className="row">   
+
+  <div id="about-me" className="col-xs-12 col-sm-8 col-md-8">
+
+    <div id="about-me-text" className="col-xs-12 col-sm-12 col-md-12"><h1>HARRY DYKINS</h1>Hi, I am a graduate mechanical engineer persuing a career in software engineering. I am currently attending a 12 week intensive course in front-end engineering at <a href="http://theironyard.com/">The Ironyard</a> in London. I intend to update this page with the skills I gain as I learn, and to add to my portfolio as I progress through the course. You can check out my portfolio and more information about myself and the skills I gained at university below.</div>
+  </div>
+
+  <div id="pic-snippets" className="col-xs-6 col-sm-4 col-md-4">
+    <div id="pic-snippets-text" className="col-xs-12 col-sm-12 col-md-12"><img id="profile-pic" className="pictures" src="./images/profile-pic.png" alt="profile picture"/>Lives in: London, Age: 23 </div>
+  </div>
+
+  <div id="links-second-row" className="hide-links-large col-xs-6">
+    <div id="links-text-second-row" className="col-xs-12"><h3>LINKS</h3>http://newspaperpuzzles.github.io/digital-press</div>
+  </div>
+</div>
+<div className="row">
+
+  <div id="portfolio-info" className="col-xs-12 col-sm-10 col-md-10">
+    <div id="portfolio-info-text" className="col-xs-12 col-sm-12 col-md-12"><h2>PORTFOLIO</h2>
+      <h3>The Iron Yard</h3>
+      <h4>Newspaper page recreation</h4>
+      Given a random page from the Metro newspaper, we were tasked with recreating it by producing a html document of our own and styling it to imitate the original as closely as possible. We worked as a group of 2 by dividing the page into sections and assigning them fairly to help split the workload evenly, before compiling them and styling the whole sheet to create the newspaper page in html format.
+      
+    </div>
+  </div>
+
+  <div id="links-third-row" className="hide-links-small col-sm-2 col-md-2">
+    <div id="links-text-third-row" className="col-sm-12 col-md-12"><h3>LINKS</h3>http://newspaperpuzzles.github.io/digital-press/</div>
+  </div>
+
+</div>   
+
+
+<div className="row">
+
+  <div id="education" className="col-xs-12 col-sm-6 col-md-6">
+    <div id="education-text" className="col-xs-12 col-sm-12 col-md-12"><h2>EDUCATIONAL BACKGROUND</h2>
+
+      <h4>2010-2013:  UNIVERSITY OF BIRMINGHAM
+        QUALIFICATIONS: Mechanical Engineering (BEng) 2:1</h4>
+
+        <div>
+          <h4>Specific subjects covered in the degree include:</h4>
+          <ul>
+            <li>Engineering mathematics</li>
+            <li>Mechanical design</li>
+            <li>Product design</li>
+            <li>Industrial skills (including business management and  health and safety)</li>
+            <li>Fluid flow, thermodynamics and heat transfer</li>
+            <li>Sustainable energy and the environment</li>
+            <li>Powertrain and Vehicle engineering</li>
+            <li>Experimental methods and statistics</li>
+            <li>Electrical, electronic and computer systems</li>
+            <li>Properties and application of materials</li>
+            <li>Mechatronics</li>
+            <li>Manufacturing systems engineering</li>
+            <li>Mechanics</li>
+            <li>Computing for engineers</li>
+            <li>Computational fluid dynamics and finite element analysis</li>
+            <li>Control engineering</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Final year projects:</h4> 
+
+          <ul>
+            <li>Demonstration and evaluation of potential for osmotic power as a future renewable energy source</li>
+
+            <li>Design of hydraulic power-assisted bicycle (Shortlisted for BP Design Challenge Award)</li>
+
+            <li>Design of gear box for aircraft propellor</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>2003-2010: DAME ALICE OWENS SCHOOL, Potters Bar, Herts
+            QUALIFICATIONS:</h4>
+
+            A Levels:   Mathematics – A, Physics – A, Chemistry – B
+            AS Levels:  History – C
+            GCSEs:    Science – A*, Mathematics – A, German – A, English – B, Geography – B, History – A, Food Technology – A, French – B, Information Technology – A
+          </div>
+
+        </div>
+      </div>
+
+      <div id="self" className="col-xs-12 col-sm-6 col-md-6">
+        <div id="self-text" className="col-xs-12 col-sm-12 col-md-12">ABOUT SELF + ANOTHER PICTURE</div>
+      </div>
+
+    </div>
+  </div>;
+
+    var parentElement = document.getElementById('react-app');
+    ReactDOM.render(mainBlock, parentElement);
+  </script>
+
+
+
+</body>
+</html>
